@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Moirai One', cursive;
+}
+
+#nav{
+    text-align: center;
+    background-color: blanchedalmond;
+
+}
+
+@font-face {
+    font-family: myFont;
+    src: url('assets/Fonts/CloisterBlack.ttf') format('truetype');
+}
+
+.anchor{
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
+}
+
+#header{
+    font-family: myFont;
+    text-align: center;
+}
+
+#image{
+    width: 400px;
+    height: 400px;
+}
+
+.product_name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.free_shipping{
+    background-color: yellow;
+} 
+
+.desc{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.here{
+    text-decoration: none;
+    color: blue;
+}
+
+.btnDiv{
+    text-align: center;
+}
+
+.btn{
+    color: red;
+    background-color: black;
+}
+
