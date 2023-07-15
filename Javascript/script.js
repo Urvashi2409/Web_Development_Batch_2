@@ -55,3 +55,48 @@
 
 // let richard_ = 89;
 // console.log(richard_);
+
+// const age = 23;
+// console.log(age);
+
+// age = 45;
+// console.log(age);
+
+// let age = 23;
+// console.log(age);
+
+// age = 45;
+// console.log(age);
+
+// var age = 23;
+// console.log(age);
+
+// age = 45;
+// console.log(age);
+
+
+// we dont use data types to declare a variable in javascript as like c++
+
+// typeof is a keyword in javascript which is used to know the data type of a variable 
+
+// let age = 34;
+// console.log(typeof age);
+
+// let age = 34.67;
+// console.log(typeof age);
+
+// let age;
+// console.log(typeof age);
+
+// let age = null;
+// console.log(typeof age);
+
+// you can just add a n at the end of a number to make it a bigint 
+// let age = 32332434234234234432423n;
+// console.log(typeof age);
+
+// let name = 'r';
+// console.log(typeof name);
+
+// let isDone = false;
+// console.log(typeof isDone);
