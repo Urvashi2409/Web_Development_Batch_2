@@ -100,3 +100,53 @@
 
 // let isDone = false;
 // console.log(typeof isDone);
+
+// Assignment operators '='
+let age = 34;
+// age = 20 + 4;
+// console.log(age);
+// age += 4;
+// age = age + 4;
+// console.log(age);
+// let a = 3;
+
+// all the assignment operators expressions executes from right to left 
+
+// age += 3;
+// age = age + 3;
+// console.log(age);
+
+// ++ is a unary operator
+// binary operator  = +, *, /, -, are binary operators because they need two operands to execute 
+// unary operator = is implemented on a single operand 
+// operand = numbers, strings, variables which are surrounding the operator 
+// example: age = a + 3;
+// Here , a and 3 are operands and + is an operator 
+
+// age++; 
+// age += 1;
+// age = age + 1;
+
+// age++2; = this is nothing, it will give error 
+// age += 2;
+// age = age + 2;
+
+// age--;
+// age -= 1;
+// age = age - 1;
+
+// age *= 2;
+// console.log(age);
+
+// age /= 2;
+// console.log(age);
+
+// Assignment operators : 
+// =, +=, -=, *=, /= 
+
+// age = 45 % 3; 
+
+// if dividend < divisor then %(modulo) operator will give dividend as the answer 
+console.log(3 % 31);
+
+// if dividend > divisor then %(modulo) operator will give remainder as the answer
