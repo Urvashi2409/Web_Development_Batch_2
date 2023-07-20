@@ -101,6 +101,9 @@
 // let isDone = false;
 // console.log(typeof isDone);
 
+// An operator is capable of manipulating a certain value or operand. 
+
+
 // Assignment operators '='
 let age = 34;
 // age = 20 + 4;
@@ -147,6 +150,93 @@ let age = 34;
 // age = 45 % 3; 
 
 // if dividend < divisor then %(modulo) operator will give dividend as the answer 
-console.log(3 % 31);
+// console.log(3 % 31);
 
 // if dividend > divisor then %(modulo) operator will give remainder as the answer
+// 27 , 0 
+
+// let a = 3;
+// Arithematic operators 
+// console.log(3**3);
+// console.log(2+3);
+// console.log(2-3);
+// console.log(2*3);
+// console.log(2/3);
+// console.log(2%3);
+// console.log(a++);
+// console.log(a--);
+
+// you can decalre multiple variables in single line 
+// let a = 4, b = 5, c = 6;
+// console.log(a, b, c);
+
+
+// using var, you can redeclare a variable in javascript and it will update the value of variable 
+// using let, you cannot redecalre a variable in javascript 
+
+// let x = 4;
+// let x = 5;
+// console.log(x);
+
+// var x = 4;
+// var x = 5;
+// var x = 6;
+// console.log(x);
+
+// in var variable, you can give the value to the variable after or before the declaration 
+// in let variable, you should give the value to the variable after the Declaration.
+
+// x = 5000;
+// let x;
+// console.log(x);
+
+// x = 5000;
+// var x;
+// console.log(x);
+
+// conditional statements in javascript 
+// age = 0;
+// if (age > 18){
+//     console.log("you can give vote");
+// }
+// else if(age < 18){
+//     console.log("you cannot give vote");
+// }
+// else{
+//     console.log("go and apply for voter id");
+// }
+
+// if (2 == 3){
+//     console.log("equal");
+// }
+// else if(2 == 4){
+//     console.log("not equal");
+// }
+// else{
+//     console.log("dont know");
+// }
+
+if(2 == 3){
+    console.log("equal");
+}
+if(2 == 4){
+    console.log("not equal");
+}
+if(2 == 5){
+    console.log("dont know");
+}
+if(false == true){
+    console.log("not possible");
+}
+if(true){
+    console.log("true");
+}
+else if(5 != 3){
+    console.log("not equal 5 and 3");
+}
+else if(4 != 4){
+    console.log("not equal 4 and 4");
+}
+else{
+    console.log("Default value!!");
+}
