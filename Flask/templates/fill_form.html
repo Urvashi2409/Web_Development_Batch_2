@@ -9,14 +9,14 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Random Password Generator</a>
+          <a class="navbar-brand" href="{{url_for('index')}}">Random Password Generator</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="fill_form.html">Fill Form</a>
+                <a class="nav-link active" aria-current="page" href="{{url_for('fill_form')}}">Fill Form</a>
               </li>
             </ul>
           </div>
@@ -25,9 +25,9 @@
 
       <h5 class="text-center mt-5 fw-bold">Fill your choices to generate the random password</h5>
 
-      <form action="">
+      <form action="{{url_for('password')}}">
         <div class="mx-auto w-25 mt-4">
-          <select class="form-select" aria-label="Default select example">
+          <select class="form-select" aria-label="Default select example" name="length">
               <option value="8" selected>Eight</option>
               <option value="9">Nine</option>
               <option value="10">Ten</option>
@@ -60,7 +60,7 @@
         </div>
 
         <div class="mx-auto mt-4 w-25">
-          <button type="button" class="btn btn-primary">Submit</button>
+          <button type="Submit" class="btn btn-primary">Submit</button>
         </div>
 
       </form>
